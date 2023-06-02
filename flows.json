@@ -1,0 +1,125 @@
+[
+    {
+        "id": "2cc5bc8078c34c3d",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "be4f2a6e935c3132",
+        "type": "inject",
+        "z": "2cc5bc8078c34c3d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 80,
+        "wires": [
+            [
+                "8a2a5287f5b1b472"
+            ]
+        ]
+    },
+    {
+        "id": "3cc1c8ece37e1be9",
+        "type": "debug",
+        "z": "2cc5bc8078c34c3d",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 700,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "b9b32435a218c003",
+        "type": "debug",
+        "z": "2cc5bc8078c34c3d",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 700,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "8a2a5287f5b1b472",
+        "type": "http request",
+        "z": "2cc5bc8078c34c3d",
+        "name": "WeatherAPI",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://weatherapi-com.p.rapidapi.com/forecast.json?q=Dallas&days=5",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [
+            {
+                "keyType": "other",
+                "keyValue": "X-RapidAPI-Key",
+                "valueType": "other",
+                "valueValue": "befe033012msh90bdf3237a027cfp10921ajsn08f658388953"
+            },
+            {
+                "keyType": "other",
+                "keyValue": "X-RapidAPI-Host",
+                "valueType": "other",
+                "valueValue": "weatherapi-com.p.rapidapi.com"
+            }
+        ],
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "3cc1c8ece37e1be9",
+                "32da2c93030e0ffe"
+            ]
+        ]
+    },
+    {
+        "id": "32da2c93030e0ffe",
+        "type": "json",
+        "z": "2cc5bc8078c34c3d",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 530,
+        "y": 120,
+        "wires": [
+            [
+                "b9b32435a218c003"
+            ]
+        ]
+    }
+]

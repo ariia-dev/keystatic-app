@@ -113,7 +113,7 @@
         "name": "",
         "property": "payload",
         "action": "",
-        "pretty": false,
+        "pretty": true,
         "x": 530,
         "y": 120,
         "wires": [

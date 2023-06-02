@@ -123,7 +123,24 @@
         ]
     },
     {
-        "id": "759d24d1d510dc44",
+        "id": "af2f13dfad373afd",
+        "type": "debug",
+        "z": "2cc5bc8078c34c3d",
+        "name": "msg.payload",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 450,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "fb41df0dc917d1d1",
         "type": "inject",
         "z": "2cc5bc8078c34c3d",
         "name": "",
@@ -143,29 +160,12 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 240,
+        "x": 200,
         "y": 260,
         "wires": [
             [
                 "af2f13dfad373afd"
             ]
         ]
-    },
-    {
-        "id": "af2f13dfad373afd",
-        "type": "debug",
-        "z": "2cc5bc8078c34c3d",
-        "name": "msg.payload",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 450,
-        "y": 260,
-        "wires": []
     }
 ]

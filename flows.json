@@ -76,7 +76,7 @@
         "method": "GET",
         "ret": "obj",
         "paytoqs": "ignore",
-        "url": "https://weatherapi-com.p.rapidapi.com/forecast.json?q=Dallas&days=5",
+        "url": "https://weatherapi-com.p.rapidapi.com/forecast.json?q=Dallas&days=3",
         "tls": "",
         "persist": false,
         "proxy": "",

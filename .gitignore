@@ -108,6 +108,7 @@ dist
 .DS_Store
 
 # Code editor settings
+.vcsode
 =======
 .vcsode
 >>>>>>> 2138bc203b1f9a3cb255f19ed9431624eee151a7

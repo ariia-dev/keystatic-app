@@ -1,14 +1,4 @@
 <<<<<<< HEAD
-node-git
-========
-
-Node Red Tutorial
-
-### About
-
-This is your project's README.md file. It helps users understand what your
-project does, how to use it and anything else they may need to know.
-=======
 # Keystatic Blank Template
 
 This is a blank template using Keystatic as a CMS.
@@ -44,4 +34,5 @@ npm run dev
 Copyright (c) 2023
 [Thinkmill Labs](https://www.thinkmill.com.au/labs?utm_campaign=keystone-github)
 Pty Ltd. Licensed under the MIT License.
+=======
 >>>>>>> 2138bc203b1f9a3cb255f19ed9431624eee151a7

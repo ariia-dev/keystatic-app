@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 node-git
 ========
 
@@ -7,3 +8,40 @@ Node Red Tutorial
 
 This is your project's README.md file. It helps users understand what your
 project does, how to use it and anything else they may need to know.
+=======
+# Keystatic Blank Template
+
+This is a blank template using Keystatic as a CMS.
+
+It uses:
+
+- Keystatic
+- NextJS
+
+## Getting started
+
+Here are a set of instructions to get Keystatic running locally
+
+### Prerequisites
+
+You will need to have pnpm installed
+```
+npm install -g pnpm
+```
+
+### Installing
+```
+pnpm i
+```
+
+Run the development server
+```
+npm run dev
+```
+
+## License
+
+Copyright (c) 2023
+[Thinkmill Labs](https://www.thinkmill.com.au/labs?utm_campaign=keystone-github)
+Pty Ltd. Licensed under the MIT License.
+>>>>>>> 2138bc203b1f9a3cb255f19ed9431624eee151a7

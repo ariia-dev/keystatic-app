@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "name": "node-git",
     "description": "Node Red Tutorial",
     "version": "0.0.1",
@@ -10,3 +11,20 @@
         }
     }
 }
+=======
+  "name": "@keystatic/template",
+  "dependencies": {
+    "@keystatic/core": "^0.0.104",
+    "@keystatic/next": "^0.0.7",
+    "@types/react": "^18.2.6",
+    "next": "^13.4.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "dev": "next",
+    "postinstall": "touch .env"
+  }
+}
+>>>>>>> 2138bc203b1f9a3cb255f19ed9431624eee151a7
